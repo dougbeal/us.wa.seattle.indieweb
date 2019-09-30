@@ -1,21 +1,4 @@
 +++
-[location]
-uuid = 'wayward-coffeehouse-seattle'
-url = 'https://waywardcoffee.com'
-map_snapshot = 'https://snapshot.apple-mapkit.com/api/v1/snapshot?center=Wayward+Coffehouse&t=standard&scale=2&spn=0.008983153020423629%2C0.013341407461325616&size=500x500&lang=en-US&poi=1&annotations=%5B%7B%22point%22%3A%2247.675498962402344%2C-122.31755828857422%22%2C%22markerStyle%22%3A%22balloon%22%2C%22color%22%3A%22ff5b40%22%7D%5D&teamId=U26X3B7B4E&keyId=7GG7WVH6X7&signature=3b-pxBvGO1qI9VrgZLGiuc8Tf5XdzMcao9hpre_JitmDjfG6YnMnIZnORkrzdY6KjXpkno6YuVoH6hmYZCVoEw'
-map_urls = [ 'https://maps.apple.com/place?address=6417%20Roosevelt%20Way%20NE%2C%20Unit%20104%2C%20Seattle%2C%20WA%20%2098115%2C%20United%20States&auid=6420724231981727246&ll=47.6755%2C-122.31756&q=Wayward%20Coffeehouse']
-name = 'Wayward Coffeehouse'
-tagline = 'an independent coffee haven for geeks'
-streetaddress = '6417 Roosevelt Way NE'
-extendedaddress = 'Unit 104'
-locality = 'Seattle'
-region = 'Washington'
-regionabbr = 'WA'
-countryname = 'USA'
-postalcode = 98115
-geo = ''
-latitude = ''
-longitude = ''
-altitude = ''
+uuid = 'wayward-coffeehouse'
 +++
 
