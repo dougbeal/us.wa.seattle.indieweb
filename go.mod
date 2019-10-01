@@ -10,6 +10,8 @@ require (
 
 replace github.com/dougbeal/hugo-theme-iw2019 => /Users/dougbeal/git/hugo-theme-iw2019
 
+replace github.com/dougbeal/hugo-theme-terminal => /Users/dougbeal/git/hugo-theme-terminal
+
 replace github.com/dougbeal/iw2019-events => /Users/dougbeal/git/iw2019-events
 
 replace github.com/dougbeal/iw2019-jsonfeed2 => /Users/dougbeal/git/iw2019-jsonfeed2
