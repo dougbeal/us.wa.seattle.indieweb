@@ -2,16 +2,18 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "IndieWeb Seattle"
-theme = [
-      "github.com/dougbeal/hugo-theme-iw2019",
-      "github.com/dougbeal/iw2019-jsonfeed2",
-      "github.com/dougbeal/iw2019-calendar",
-      "github.com/dougbeal/iw2019-events",
-      "github.com/dougbeal/iw2019-podcasts",
-      "github.com/dougbeal/iw2019-location",
-      "github.com/dougbeal/hugo-theme-terminal"
-]
+# TIP: don't have theme if using [module]
+# theme = [
+#       "github.com/dougbeal/hugo-theme-iw2019",
+#       "github.com/dougbeal/iw2019-jsonfeed2",
+#       "github.com/dougbeal/iw2019-calendar",
+#       "github.com/dougbeal/iw2019-events",
+#       "github.com/dougbeal/iw2019-podcasts",
+#       "github.com/dougbeal/iw2019-location",
+#       "github.com/dougbeal/hugo-theme-terminal"
+# ]
 paginate = 5
+copyright = '<span>©2019 Powered by <a href="http://gohugo.io">Hugo</a></span><span>:: <a href="https://github.com/dougbeal/hugo-theme-iw2019">iw2019 Theme</a> by <a href="https://dougbeal.com">Douglas Beal</a>'
 
 [module]
 [module.hugoVersion]
@@ -33,15 +35,19 @@ path="github.com/dougbeal/hugo-theme-terminal"
 [[module.imports.mounts]]
 source="static"
 target="static"
+[[module.imports.mounts]]
+source="layouts"
+target="layouts"
 
 
 [params]
+
   # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
+  contentTypeName = "events"
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "orange"
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 3
   # show selector to switch language
   showLanguageSelector = false
   # set theme to full screen width
@@ -57,7 +63,7 @@ target="static"
     title = "HWC Seattle"
     subtitle = "A simple, retro theme for Hugo"
     keywords = ""
-    copyright = ""
+    copyright = '<span>©2019 Powered by <a href="http://gohugo.io">Hugo</a></span><span> :: <a href="https://github.com/dougbeal/hugo-theme-iw2019">iw2019</a> by <a href="https://dougbeal.com">dougbeal</a>'
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
@@ -75,3 +81,7 @@ target="static"
         identifier = "events"
         name = "Events"
         url = "/event"
+      [[languages.en.menu.main]]
+        identifier = "locations"
+        name = "Locations"
+        url = "/location"
