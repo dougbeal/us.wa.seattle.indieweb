@@ -3,9 +3,10 @@ module github.com/dougbeal/us.wa.seattle.indieweb
 go 1.13
 
 require (
-	github.com/dougbeal/hugo-theme-iw2019 v0.0.0-20190927234309-539962f4fc2d // indirect
-	github.com/dougbeal/hugo-theme-terminal v0.0.0-20191005232733-4a836ffeebe2 // indirect
-	github.com/dougbeal/iw2019-events v0.0.0-20190928233558-cb0d6dac0507 // indirect
+	github.com/dougbeal/hugo-theme-iw2019 v1.0.2
+	github.com/dougbeal/hugo-theme-terminal v1.0.2
+	github.com/dougbeal/iw2019-events v1.0.2
+	github.com/dougbeal/iw2019-location v1.0.2
 )
 
 // replace github.com/dougbeal/hugo-theme-iw2019 => ../hugo-theme-iw2019
