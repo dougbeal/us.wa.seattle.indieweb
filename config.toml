@@ -31,6 +31,8 @@ path="github.com/dougbeal/iw2019-location"
 [[module.imports]]
 path="github.com/dougbeal/iw2019-podcasts"
 [[module.imports]]
+path="github.com/dougbeal/iw2019-author"
+[[module.imports]]
 path="github.com/dougbeal/hugo-theme-terminal"
 [[module.imports.mounts]]
 source="static"
@@ -47,7 +49,7 @@ target="layouts"
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "orange"
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
+  showMenuItems = 4
   # show selector to switch language
   showLanguageSelector = false
   # set theme to full screen width
@@ -85,3 +87,7 @@ target="layouts"
         identifier = "locations"
         name = "Locations"
         url = "/location"
+      [[languages.en.menu.main]]
+        identifier = "authors"
+        name = "Authors"
+        url = "/author"
