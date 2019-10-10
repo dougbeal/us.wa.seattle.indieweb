@@ -18,6 +18,9 @@ copyright = '<span>©2019 Powered by <a href="http://gohugo.io">Hugo</a></span><
 [module]
 [module.hugoVersion]
 min = "0.56.0"
+[[module.mounts]]
+source="keys"
+target="static/keys"
 [[module.imports]]
 path="github.com/dougbeal/hugo-theme-iw2019"
 [[module.imports]]
