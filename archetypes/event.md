@@ -17,6 +17,9 @@ event:
   - description: meetup, discussion, updates
     end: '6:30'
     start: '7:30'
+  invite:
+  - dougbeal
+  - timeswast
 ---
 
 Just show up, and feel free to [[RSVP]] by adding yourself to the wiki or send an RSVP to this page.

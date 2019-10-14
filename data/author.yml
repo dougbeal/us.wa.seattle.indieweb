@@ -1,4 +1,12 @@
 -
-  url: 'dougbeal'
-  uid: 'https://dougbeal.com'
+  uuid: 'dougbeal'
+  url: 'https://dougbeal.com'
   name: 'Douglas Beal'
+  twitter: 'murderofcrows'
+  microdotblog: 'dougbeal'
+-
+  uuid: 'timswast'
+  url: 'https://www.timswast.com'
+  name: 'Tim Swast'
+  twitter: 'timswast'
+  microdotblog: 'timswast'
