@@ -63,7 +63,7 @@ target="layouts"
   # center theme with default width
   centerTheme = false
   # set a custom favicon (default is a `themeColor` square)
-  favicon = "iw-img/hwc-sea.svg"
+  favicon = "iw-img/hwc-sea-tree-w.svg"
 
 [languages]
   [languages.en]
