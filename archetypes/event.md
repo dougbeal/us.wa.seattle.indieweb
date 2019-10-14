@@ -26,6 +26,7 @@ event:
   - altsalt
   - andrewjacobs
   - ryanrix
+  icon: iw-img/hwc-sea.svg
 ---
 
 Just show up, and feel free to [[RSVP]] by adding yourself to the wiki or send an RSVP to this page.
