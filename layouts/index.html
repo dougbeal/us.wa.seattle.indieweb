@@ -1,0 +1,9 @@
+{{ define "main" }}
+<h1>Next HWC</h1>
+{{ with ((.GetPage "/event").Pages) }}
+{{ range first 1 (.ByParam "event.start").Reverse  }}
+{{ partial "event.html" . }}
+{{ end }}
+{{ end }}
+
+{{ end }}
