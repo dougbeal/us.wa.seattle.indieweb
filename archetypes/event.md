@@ -19,7 +19,13 @@ event:
     start: '7:30'
   invite:
   - dougbeal
-  - timeswast
+  - timswast
+  - mimečuvalo
+  - davepeck
+  - stevestreza
+  - altsalt
+  - andrewjacobs
+  - ryanrix
 ---
 
 Just show up, and feel free to [[RSVP]] by adding yourself to the wiki or send an RSVP to this page.
