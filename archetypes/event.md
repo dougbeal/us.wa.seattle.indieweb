@@ -29,4 +29,4 @@ event:
   icon: iw-img/hwc-sea.svg
 ---
 
-Just show up, and feel free to [[RSVP]] by adding yourself to the wiki or send an RSVP to this page.
+Just show up, and feel free to [RSVP](https://indieweb.org/rsvp) by adding yourself to the [wiki]({{<indieweb-wiki-hwc>}}) or sending an RSVP to this page.
