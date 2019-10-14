@@ -10,6 +10,13 @@ require (
 	github.com/dougbeal/iw2019-location v1.0.8
 )
 
+////////////////////////////////////////////////////////////
+// replaces statments
+////////////////////////////////////////////////////////////
+//
+// hopefully this will be enough unchanging lines to break up the hunks
+//
+
 // replace github.com/dougbeal/hugo-theme-iw2019 => ../hugo-theme-iw2019
 
 // replace github.com/dougbeal/hugo-theme-terminal => ../hugo-theme-terminal
