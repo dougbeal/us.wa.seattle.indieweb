@@ -77,23 +77,24 @@ target="layouts"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "HWC Seattle"
+      logoText = "🌲HWC Seattle"
       logoHomeLink = "/"
 
     [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
+
       [[languages.en.menu.main]]
         identifier = "events"
         name = "Events"
         url = "/event"
+      [[languages.en.menu.main]]
+        identifier = "calendar"
+        name = "📆"
+        url = "/calendar"
       [[languages.en.menu.main]]
         identifier = "locations"
         name = "Locations"
         url = "/location"
       [[languages.en.menu.main]]
         identifier = "authors"
-        name = "Authors"
+        name = "Organizers"
         url = "/author"
