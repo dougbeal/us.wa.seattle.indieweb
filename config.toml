@@ -1,5 +1,5 @@
 #baseURL = "https://indieweb.dougbeal.com/"
-baseURL = "/"
+baseURL = "https://hwc.dougbeal.com/"
 languageCode = "en-us"
 title = "IndieWeb Seattle"
 # TIP: don't have theme if using [module]
@@ -12,6 +12,9 @@ title = "IndieWeb Seattle"
 #       "github.com/dougbeal/iw2019-location",
 #       "github.com/dougbeal/hugo-theme-terminal"
 # ]
+[outputs]
+  section = ["HTML",  "RSS", "Calendar"] # not implemented yet "JSON",
+
 paginate = 5
 copyright = '<span>©2019 Powered by <a href="http://gohugo.io">Hugo</a></span><span>:: <a href="https://github.com/dougbeal/hugo-theme-iw2019">iw2019 Theme</a> by <a href="https://dougbeal.com">Douglas Beal</a>'
 

@@ -4,7 +4,7 @@ base="${HOME}/git/sites"
 [ -e "${base}" ] &&
 (
     git status -s
-    for repl in $(grep replace go.mod); do
+    for repl in $(grep "replace.*github" go.mod); do
         (
             repo=${repl##*replace*github*/*/}
             repo=${repo%% =>*}
