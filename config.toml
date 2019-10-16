@@ -1,5 +1,6 @@
 #baseURL = "https://indieweb.dougbeal.com/"
-baseURL = "https://hwc.dougbeal.com/"
+baseURL = "https://hwc.dougbeal.com/" # mirrored in params for development
+
 languageCode = "en-us"
 title = "IndieWeb Seattle"
 # TIP: don't have theme if using [module]
@@ -52,7 +53,7 @@ target="layouts"
 
 
 [params]
-
+  productionBaseURL = "https://hwc.dougbeal.com/"
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "events"
   # ["orange", "blue", "red", "green", "pink"]
