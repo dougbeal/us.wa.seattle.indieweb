@@ -30,6 +30,12 @@ source="img"
 target="static/iw-img"
 [[module.imports]]
 path="github.com/dougbeal/hugo-theme-iw2019"
+[[module.imports.mounts]]
+source="static/fontawesome"
+target="static/fontawesome"
+[[module.imports.mounts]]
+source="layouts/shortcodes"
+target="layouts/shortcodes"
 [[module.imports]]
 path="github.com/dougbeal/iw2019-calendar"
 [[module.imports]]
