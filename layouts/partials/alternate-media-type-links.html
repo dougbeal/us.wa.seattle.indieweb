@@ -1,0 +1,10 @@
+{{ if (gt (len .AlternativeOutputFormats) 0 ) -}}
+{{ range $format := .AlternativeOutputFormats -}}
+{{ $format := $format.Format }}
+<a type="{{ $format.MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+    <img class="fab fa-sm" style="background: var(--accent);"
+         src='{{ $.Site.BaseURL }}glyphs/fontawesome/latest/svgs/{{ index $.Site.Data.icons $format.Name }}' />
+</a>
+</li>
+{{ end -}}
+{{ end -}}
