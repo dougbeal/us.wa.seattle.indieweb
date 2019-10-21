@@ -1,5 +1,13 @@
 #!/bin/bash
+function do_git {
+    git status -s
+    git tag --list | tail -n 1
+    git ls-remote --tags origin  | tail -n 1    
+}
 . github.sh
-do_site_git status -s
-do_site_git tag --list
+
+echo "in $(pwd)"
+do_git
+
+do_site_git 
 
