@@ -4,7 +4,7 @@ base="${HOME}/git/sites"
 declare -F "do_git" &>/dev/null
 if [ $? -ne 0 ]; then
     function do_git {
-        echo -n '\t'
+        echo -en '\t'
         git $@
     }
 fi
