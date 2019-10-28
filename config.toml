@@ -1,5 +1,6 @@
 #baseURL = "https://indieweb.dougbeal.com/"
-baseURL = "/"
+baseURL = "https://hwc.dougbeal.com/" # mirrored in params for development
+
 languageCode = "en-us"
 title = "IndieWeb Seattle"
 # TIP: don't have theme if using [module]
@@ -12,14 +13,32 @@ title = "IndieWeb Seattle"
 #       "github.com/dougbeal/iw2019-location",
 #       "github.com/dougbeal/hugo-theme-terminal"
 # ]
+[outputs]
+  section = ["HTML",  "RSS", "Calendar"] # not implemented yet "JSON",
+
 paginate = 5
 copyright = '<span>©2019 Powered by <a href="http://gohugo.io">Hugo</a></span><span>:: <a href="https://github.com/dougbeal/hugo-theme-iw2019">iw2019 Theme</a> by <a href="https://dougbeal.com">Douglas Beal</a>'
 
 [module]
 [module.hugoVersion]
 min = "0.58.3"
+[[module.mounts]]
+source="keys"
+target="static/keys"
+[[module.mounts]]
+source="img"
+target="static/iw-img"
 [[module.imports]]
 path="github.com/dougbeal/hugo-theme-iw2019"
+[[module.imports.mounts]]
+source="static/glyphs"
+target="static/glyphs"
+[[module.imports.mounts]]
+source="assets"
+target="assets"
+[[module.imports.mounts]]
+source="layouts/shortcodes"
+target="layouts/shortcodes"
 [[module.imports]]
 path="github.com/dougbeal/iw2019-calendar"
 [[module.imports]]
@@ -31,6 +50,8 @@ path="github.com/dougbeal/iw2019-location"
 [[module.imports]]
 path="github.com/dougbeal/iw2019-podcasts"
 [[module.imports]]
+path="github.com/dougbeal/iw2019-author"
+[[module.imports]]
 path="github.com/dougbeal/hugo-theme-terminal"
 [[module.imports.mounts]]
 source="static"
@@ -41,13 +62,13 @@ target="layouts"
 
 
 [params]
-
+  productionBaseURL = "https://hwc.dougbeal.com/"
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "events"
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "orange"
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
+  showMenuItems = 4
   # show selector to switch language
   showLanguageSelector = false
   # set theme to full screen width
@@ -55,7 +76,7 @@ target="layouts"
   # center theme with default width
   centerTheme = false
   # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+  favicon = "iw-img/hwc-sea-tree-w.svg"
 
 [languages]
   [languages.en]
@@ -69,19 +90,24 @@ target="layouts"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "HWC Seattle"
+      logoText = "🌲HWC Seattle"
       logoHomeLink = "/"
 
     [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
+
       [[languages.en.menu.main]]
         identifier = "events"
         name = "Events"
         url = "/event"
       [[languages.en.menu.main]]
+        identifier = "calendar"
+        name = "📆"
+        url = "/calendar"
+      [[languages.en.menu.main]]
         identifier = "locations"
         name = "Locations"
         url = "/location"
+      [[languages.en.menu.main]]
+        identifier = "authors"
+        name = "Organizers"
+        url = "/author"

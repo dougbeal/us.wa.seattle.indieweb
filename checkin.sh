@@ -10,7 +10,7 @@ base="${HOME}/git/sites"
             repo=${repo%% =>*}
             cd "${base}/${repo}"
             echo "${repo}"
-            git status -s
+            git commit -am "$@"
         )
     done
 )

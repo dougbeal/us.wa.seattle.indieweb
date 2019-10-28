@@ -1,0 +1,48 @@
+-
+  uuid: 'dougbeal'
+  url: 'https://dougbeal.com'
+  name: 'Douglas Beal'
+  twitter: 'murderofcrows'
+  microdotblog: 'dougbeal'
+  mastodon: 'https://xoxo.zone/@dougbeal'
+-
+  uuid: 'timswast'
+  url: 'https://www.timswast.com'
+  name: 'Tim Swast'
+  twitter: 'timswast'
+  microdotblog: 'timswast'
+-
+  uuid: 'mimečuvalo'
+  name: 'Mime Čuvalo'
+  url: 'https://nite-lite.net/mime/'
+-
+  uuid: 'davepeck'
+  name: 'Dave Peck'
+  url: 'https://davepeck.org'
+  twitter: 'dangerdave'
+-
+  uuid: 'stevestreza'
+  name: 'Steve Streza'
+  url: 'https://stevestreza.com'
+  mastodon: 'https://mastodon.social/@stevestreza'
+  twitter: 'SteveStreza'
+-
+  uuid: 'altsalt'
+  name: 'Wm Salt Hale'
+  twitter: 'altsalt'
+  url: 'http://altsalt.net'
+-
+  uuid: 'andrewjacobs'
+  name: 'Andrew Jacobs'
+  twitter: 'funwhilelost'
+  url: 'https://funwhilelost.com'
+-
+  uuid: 'ryanrix'
+  name: 'Ryan Rix'
+  url: 'https://notes.whatthefuck.computer'
+  twitter: 'rrrrrrrix'
+-
+  uuid: 'codyhatfield'
+  name: 'Cody Hatfield'
+  url: 'http://codyhatfield.me'
+  twitter: 'codynhat'

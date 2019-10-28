@@ -1,0 +1,12 @@
+<link rel="webmention" href="https://webmention.io/hwc.dougbeal.com_about/webmention" />
+<link rel="pingback" href="https://webmention.io/hwc.dougbeal.com_about/xmlrpc" />
+<link rel="pgpkey authn" type="application/pgp-keys" href="keys/key.pub" />
+{{ range .AlternativeOutputFormats -}}
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+{{ end -}}
+{{/* $options := (dict "targetPath" "assets/fa-svg-slim.css" "outputStyle" "compressed" "enableSourceMap" true ) */}}
+{{ $options := (dict "targetPath" "assets/fa-svg-slim.css" "outputStyle" "expanded" "enableSourceMap" true ) }}
+{{ $sass := resources.Get "scss/fa-svg-slim.scss" }}
+{{ $style := $sass | resources.ToCSS $options }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+

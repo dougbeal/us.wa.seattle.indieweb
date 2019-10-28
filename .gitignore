@@ -1,0 +1,4 @@
+/go.sum
+public/*
+/*.log
+/data/secrets.yml
