@@ -10,3 +10,8 @@
 {{ $style := $sass | resources.ToCSS $options }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
 
+{{ $options := (dict "targetPath" "assets/mf2.css" "outputStyle" "expanded" "enableSourceMap" true ) }}
+{{ $sass := resources.Get "scss/mf2.scss" }}
+{{ $style := $sass | resources.ToCSS $options }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+
