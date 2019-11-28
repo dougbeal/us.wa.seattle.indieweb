@@ -1,4 +1,5 @@
 ---
+publishDate: {{ now.Local }}
 event:
   uuid: hwc-seattle-2019-xx-xx
   name: Homebrew Website Club - Seattle Area
