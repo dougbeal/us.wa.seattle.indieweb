@@ -100,10 +100,6 @@ target="layouts"
         name = "Events"
         url = "/event"
       [[languages.en.menu.main]]
-        identifier = "calendar"
-        name = "📆"
-        url = "/calendar"
-      [[languages.en.menu.main]]
         identifier = "locations"
         name = "Locations"
         url = "/location"
